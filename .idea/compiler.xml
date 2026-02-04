@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="reviewMS" />
+        <module name="Config-server" />
+        <module name="api-gateway" />
+        <module name="jobms" />
+        <module name="CompanyMS" />
+        <module name="Service-Registry" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="firstjobapp" target="21" />
+      <module name="gateway" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CompanyMS" options="-parameters" />
+      <module name="Config-server" options="-parameters" />
+      <module name="Service-Registry" options="-parameters" />
+      <module name="api-gateway" options="-parameters" />
+      <module name="firstjobapp" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="jobms" options="-parameters" />
+      <module name="reviewMS" options="-parameters" />
+    </option>
+  </component>
+</project>
